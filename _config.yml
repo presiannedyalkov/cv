@@ -1,0 +1,4 @@
+markdown:   kramdown
+plugins:
+  - liquid_reading_time
+  - jekyll-spaceship
