@@ -3,7 +3,7 @@ description:  Presian Nedyalkov's Curriculum Vitae.
 url: https://presiannedyalkov.github.io/cv/
 baseurl: ''
 theme_skin: blue
-markdown:   kramdown
+markdown: kramdown
 
 sass:
   sass_dir: _sass
@@ -13,6 +13,3 @@ plugins:
     - jekyll-minifier
     - liquid_reading_time
     - jekyll-spaceship
-
-exclude:
-  - docker-compose.yml
