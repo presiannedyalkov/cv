@@ -9,14 +9,25 @@
         .company {
             @include body-text;
             font-weight: bold;
-            .time {
-                float: right;
+            margin-bottom: 6px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .time, .link {
                 color: var(--fg-color-title-sm);
                 font-weight: 100;
+                a {
+                    text-decoration: none;
+                }
             }
         }
         .details {
             @include body-text;
+            a {
+                font-weight: bold;
+            }
         }
         .technologies {
             @include body-text;

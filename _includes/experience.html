@@ -8,11 +8,11 @@
                 {{exp.role}}
             </div>
             <div class="company">
-                {{exp.company}} 
+                <span class="name">{{exp.company}} {% if exp.link %} <span class="link">@ <a href="https://{{exp.link}}">{{exp.link}}</a></span>{% endif %}</span>
                 <span class="time">{{exp.time}}</span>
             </div> 
             <div class="details">{{exp.details}}</div>
-            <p class="technologies">Technologies Used: {{exp.technologies_used}}</p>
+            {% if exp.technologies_used %}<p class="technologies">Technologies Used: {{exp.technologies_used}}</p>{% endif %}
         </div>
        
     {% endfor %}

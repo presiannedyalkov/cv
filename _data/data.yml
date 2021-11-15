@@ -1,78 +1,189 @@
-name: John Doe
+name: Presian Nedyalkov
 support_dark_mode: true
-fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  email: presian.nedyalkov@gmail.com
+  github: presiannedyalkov
+  linkedin: presian-nedyalkov-97576251
+  phone: +49 176 61912218
+  twitter:
 
 languages:
+  - idiom: Bulgarian
+    level: Mother Tongue
+  - idiom: German
+    level: 15+ Years, DAF, DSH
   - idiom: English
-  - idiom: Russian
-  - idiom: French
-
-education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
-
-skills:
-  - category: Backend
-    skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
-    skill:
-      - Docker
-      - Kubernetes 
+    level: 20+ Years, CAE C2
+  - idiom: Spanish
+    level: 6 Months, Learning
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  Lorem
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Developer
+    time: July 2020 - December 2021
+    company: GALERIA Kaufhof
+    link: www.galeria.de
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Lorem
+    technologies_used: |
+      SFCC, Javascript
 
+  - role: Developer
+    time: October 2018 - July 2020
+    company: Nexum AG
+    link: www.nexum.com
+    details: |
+      Salesforce Commerce Cloud Relaunch for <a href="https://www.mustang-jeans.com/" target="_blank">Mustang Jeans</a> - Development of frontend components and templates, APIs, jobs, store locator, co-development of checkout; SFCC launch for <a href="https://www.avoury.com/" target="_blank">Melitta Single Portions</a> - development of APIs, connection of marketing cloud, OCAPI support and extension for a headless react frontend, page designer components for the headless react frontend; <i>Technical Lead</i> for <a href="https://www.bergerschuhe.ch/" target="_blank">Berger Sport und Schuhe</a> - Architecture - APIs (PIM, ERP, Payment, Marketing), import/export integration scenarios, functional and technical specifications of frontend and backend, DevOps - Code Standards, Code Reviews, Code Setup, Code Testing, Sprint planning, documentation, Cl pipeline, consultation with involved partners (PIM, ERP, customer), <i>management</i> of 3 employees.<br> Since the beginning of 2020 in Technical Lead Mentoring Program as a mentee and in an internal DevOps team.
+    technologies_used: |
+      SFCC, OCAPI, Javascript, Atlassian Stack, CI/CD
+
+  - role: Developer (Working Student)
+    time: July 2017 - October 2018
+    company: Nexum AG
+    details: |
+      Frontend Web Development: Development of Atomic Design Components for <a href="https://www.coop.ch/" target="_blank">Coop</a> in PUG, SASS + BEM, jQuery; Development of <a href="https://www.coop-restaurant.ch/" target="_blank">Coop Restaurant</a>; Final phase at the relaunch of <a href="https://www.bachmann.com/" target="_blank">Bachmann</a> - component and template fixing and creating new ones; React component for <a href="https://www.compo.de/" target="_blank">Compo</a>; Components and templates for <a href="https://karriere.fresenius.de/" target="_blank">Fresenius Careers</a>; Frontend search for <a href="https://www.kautex.com/" target="_blank">Kautex Textron</a>; Final phase at the relaunch of <a href="https://www.nrwinvest.com/" target="_blank">NRW Invest</a> - final adjustments, bug fixing, final components; Landing page for <a href="https://www.babyone.de/" target="_blank">BabyOne</a> on the Commerce Cloud Platform.
+    technologies_used: |
+      PUG, SASS + BEM, jQuery, React
+
+  - role: Frontend Web Developer (Working Student)
+    time: December 2012 - July 2017
+    company: Butlers
+    link: www.butlers.com
+    details: |
+      Pixel-precise conversion from PSD to HTML, CSS & jQuery. Management and maintenance of online shop content, landing pages, campaigns & promotions in Demandware (Commerce Cloud). Consultations and exchange of expertise with campaign, marketing, graphic teams. Training of new personnel in Demandware. Co-development of a frontend and backend relaunch - development of components and templates, integration of APIs. Marketing Cloud Mails.
+    technologies_used: |
+      HTML, CSS, jQuery, SASS
+
+  - role: Assistant Chef
+    time: June 2011 - October 2012
+    company: Café Krümel
+
+  - role: Back Office (Working Student)
+    time: October 2009 - November 2010
+    company: Check24
+    details: |
+      Entering insurance information in the backend system. Maintenance and cleanup of customer databases in Excel.
+    technologies_used: |
+      Excel
+
+education:
+  - degree: Media Culture Science / Media Psychology, B.A.
+    time: October 2010 - March 2019
+    university: University of Cologne
+    details: Humanities studies with courses (English/German) in philosophy, theatre studies, literary studies, media studies, media history, media theory and media analysis, accompanied by statistics, perceptual psychology, emotional psychology, media psychology, social and communication psychology. Media psychology practical course with paper <a href="https://www.academia.edu/42028974/The_significance_of_color_and_visual_style_of_a_call_to_action_button_on_the_conversion_rates_of_a_web_application" target="_blank">The significance of color and visual style of a call-to-action button on the conversion rates of a web application.</a> and Bachelor Thesis entitled <a href="https://www.academia.edu/42028973/The_button_as_a_user_interface_component_variables_of_its_display_and_their_effects_on_usability" target="_blank">The button as a user interface component - variables of its display and their effects on usability.</a>
+
+  - degree: Psychology
+    time: October 2008 - March 2010
+    university: LMU München
+    details: Three semesters of intensive and comprehensive psychological studies in the fields of statistics, perception, emotion, motivation, developmental psychology, biological and clinical psychology.
+
+  - degree: German/English
+    time: September 2003 - June 2008
+    university: Language School
+    details: Over 1600 hours of German lessons, Over 400 hours of English. Maintenance of the website and forum of the high school.
+
+certifications:
+  - name: Social Norms, Social Change I
+    time: August 2020
+    organization: University of Pennsylvania, Unicef via Coursera
+    details: <a href="https://www.coursera.org/account/accomplishments/certificate/M24M2HP5Y9GD" target="_blank">Certificate</a>
+
+  - name: Social Norms, Social Change II
+    time: September 2020
+    organization: University of Pennsylvania, Unicef via Coursera
+    details: <a href="https://www.coursera.org/account/accomplishments/certificate/U6E3UFGS7W3K" target="_blank">Certificate</a>
+
+  - name: Commerce Cloud Developer
+    time: March 2019
+    organization: Salesforce
+    details: <a href="https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0jjdR6MBNhx+7aA5OV4arAjHt6I6xMZcxpc77z+zobMt8GOf+4WGH+3O3hxGkJbw" target="_blank">Certification Detail</a>
+
+  - name: IT certificate from the Philosophical faculty
+    time: 2012 - 2013
+    organization: University of Cologne
+    details: General Information Technologies I, General Technologies II, Advanced Markup & Metadata, Digital Objects Processing - CMS
+
+  - name: Computer Science 101
+    time: May 2013
+    organization: Stanford University via Coursera
+    details: <a href="https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/52~329209/pdf" target="_blank">Certificate</a>
+
+skills:
+  - category: Skills And Tools
+    skill:
+      - ECMAScript 5/6
+      - NodeJS
+      - Commerce Cloud
+      - ExpressJS
+      - JQuery
+      - Webpack/Grunt/Gulp
+      - Git
+      - Github
+      - Bitbucket
+      - Jira
+      - Confluence
+      - Bamboo
+      - Bash
+      - Powershell
+      - HTML5
+      - XML
+      - CSS/SCSS
+      - Bootstrap
+      - React
+      - Vue
+      - JSON
+      - Postman
+      - Rest
+      - Marketing Cloud
+      - AWS
+      - Regex
+      - CodeceptJS
+      - Jekyll
+
+  - category: Personal Skills
+    skill:
+      - Structured
+      - Conscientious
+      - Mindful
+      - Precise
+      - Persevering
+      - Compassionate
+      - Perfectionist
+      - Disciplined
+      - Attentive
+      - Careful
+      - Controlled
+      - Supportive
+      - Questioning
+      - Reliable
+      - Loyal
+  - category: Color Typology 
+    skill:
+      - 97% Blue, 77% Green
+  
+  - category: Hobbies
+    skill:
+      - Philosophy
+      - Gardening
+      - Development
+      - Handcraft
+      - Raspberry Pi & Arduino
+      - Cooking
+      - Sustainability
+      - Chess
+      - IOT
+      - Media & Communication
+      - Guitar
+      - Blockchain
+      - 3D Printing
+
+# N/A
 publications:
   - title: Random title of paper. An interesting one.
     link: "#"
@@ -85,24 +196,23 @@ publications:
     conference: Some conference again, 2018
 
 projects:
-  - title: Cool Project 
+  - title: Cool Project
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
 
-  - title: Cool Project 
+  - title: Cool Project
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
 
-# Volunteering
 volunteering:
   - time: 2020-Present
     role: PR Manager
     company: Some random organization
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

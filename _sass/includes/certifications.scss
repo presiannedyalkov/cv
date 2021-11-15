@@ -1,12 +1,12 @@
-.education {
+.certifications {
     .title {
         @include header;
     }
-    .education-item {
-        .degree {
+    .certification-item {
+        .name {
             @include sub-header;
         }
-        .university {
+        .organization {
             @include body-text;
             font-weight: bold;
             margin-bottom: 6px;
