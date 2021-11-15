@@ -4,9 +4,14 @@
     <div class="title">Education</div>
     {% for ed in education %}
         <div class="education-item">
-            <div class="degree">{{ed.degree}}</div>
-            <div class="university">{{ed.university}}</div> 
-            <div class="time">{{ed.time}}</div>
+            <div class="degree">
+                {{ed.degree}}
+            </div>
+            <div class="university">
+                {{ed.university}}
+                <span class="time">{{ed.time}}</span>
+            </div> 
+            <div class="details">{{ed.details}}</div>
         </div>
     {% endfor %}
 </section>

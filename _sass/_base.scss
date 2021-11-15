@@ -8,6 +8,13 @@ body {
     background-color: var(--bg-color);
 }
 
+a {
+    color: var(--fg-color-body);
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    text-decoration-color: var(--fg-color-dark);
+}
+
 .container {
     max-width: 900px;
     min-height: 900px;
