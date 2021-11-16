@@ -8,5 +8,6 @@ http://www.unzip.ninja/#CV_%7C_Presian_Nedyalkov/H4sIAAAAAAAAA8xc6XLiSLZ+lbxM9K3
  - [x] add javascript in index.html
  - [x] minify html
  - [x] gzip the content of index.html and create url with unzip.ninja
- - [ ] redo post-build with gems / build custom gem
- - [ ] add multi language support
+ - [x] add multi language support
+ - [ ] redo post-build with gems / build custom gem 
+ - [ ] minify html - https://blog.webjeda.com/compress-html-jekyll/
