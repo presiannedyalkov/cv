@@ -1,8 +1,11 @@
 ---
 layout: cv
+lang: en
 ---
+{% assign data = site.data[page.lang] %}
 <div class="container">
   {% include header.html %}
+
   <div class="container-block">
     <div class="sidebar">
       {% include contact.html %}
