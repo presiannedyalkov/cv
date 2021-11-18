@@ -1,7 +1,7 @@
 {% assign certifications = data.certifications %}
 {% if certifications %}
 <section class="certifications">
-    <h2 class="title">Certifications</h2>
+    <h2 class="title">{{data.global.certifications}}</h2>
     {% for cert in certifications %}
         <div class="certification-item">
             <div class="name">

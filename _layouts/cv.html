@@ -1,8 +1,33 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html lang="en">
+{% include navlang.html %}
+{% assign data = site.data[navlang] %}
+<html lang="{{ navlang }}">
 {% include head.html %}
 <body>
-    {{content}}
+    <div class="container">
+        {% include header.html %}
+      
+        <div class="container-block">
+          <div class="sidebar">
+            {% include contact.html %}
+            {% include languages.html %}
+            {% include skills.html %}
+          </div>
+      
+          <div class="main">
+            {% include career-profile.html %}
+            {% include experience.html %}
+            {% include education.html %}
+            {% include certifications.html %}
+            <!-- {% include projects.html %} -->
+
+            {{content}}
+          </div>
+        </div>
+      </div>
 </body>
 {% include scripts.html %}
 </html>

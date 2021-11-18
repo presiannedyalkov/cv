@@ -5,10 +5,22 @@ baseurl: ''
 theme_skin: blue
 markdown: kramdown
 support_dark_mode: true
+locale: en
+incremental: true
 
 sass:
   sass_dir: _sass
   style: compressed
+
+compress_html:
+  clippings: 
+  comments: ["<!-- ", " -->"]
+  endings: 
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: 
+  startings: [html, head, body]
 
 plugins:
   - jekyll-spaceship
