@@ -1,7 +1,25 @@
 <div class="header">
-    <h1 class="title">{{data.name}}</h1>
-    {% if data.support_dark_mode %}
-      <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
-      <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
-    {%endif%}
+  <h1 class="title">{{data.name}}</h1>
+
+  <div class="options">
+    <div class="site-language">
+    {% for lang in site.data.languages %}
+      {% assign language = lang[1] %}
+      {% assign languageCode = lang[0] %}
+      {% if languageCode != page.lang %}
+        {% if languageCode == site.locale %}
+          <a href="{{site.url}}"><img src="data:image/png;base64,{{language.base64}}"></a>
+        {% else %}
+          <a href="{{site.url}}/{{languageCode}}"><img src="data:image/png;base64,{{language.base64}}"></a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    </div>
+
+    {% if site.support_dark_mode %}
+    <input type="checkbox" id="switch" name="mode"></input>
+    <label for="switch"><span id="switch-icon" class="mdi mdi-weather-night"></span></label>
+    
+    {% endif %}
   </div>
+</div>

@@ -1,5 +1,14 @@
+global:
+  profile: Career profile
+  experience: Experience
+  contact: Contact
+  languages: Languages
+  technologies: Technologies Used
+  education: Education
+  certifications: Certifications
+  projects: Projects
+
 name: Presian Nedyalkov
-support_dark_mode: true
 
 # Sidebar
 contact:
@@ -7,7 +16,6 @@ contact:
   github: presiannedyalkov
   linkedin: presian-nedyalkov-97576251
   phone: +49 176 61912218
-  twitter:
 
 languages:
   - idiom: Bulgarian
@@ -76,14 +84,14 @@ education:
   - degree: Media Culture Science / Media Psychology, B.A.
     time: October 2010 - March 2019
     university: University of Cologne
-    details: Humanities studies with courses (English/German) in philosophy, theatre studies, literary studies, media studies, media history, media theory and media analysis, accompanied by statistics, perceptual psychology, emotional psychology, media psychology, social and communication psychology. Media psychology practical course with paper <a href="https://www.academia.edu/42028974/The_significance_of_color_and_visual_style_of_a_call_to_action_button_on_the_conversion_rates_of_a_web_application" target="_blank">The significance of color and visual style of a call-to-action button on the conversion rates of a web application.</a> and Bachelor Thesis entitled <a href="https://www.academia.edu/42028973/The_button_as_a_user_interface_component_variables_of_its_display_and_their_effects_on_usability" target="_blank">The button as a user interface component - variables of its display and their effects on usability.</a>
+    details: Humanities studies with courses (in English & German) in philosophy, theatre studies, literary studies, media studies, media history, media theory and media analysis, accompanied by statistics, perceptual psychology, emotional psychology, media psychology, social and communication psychology. Media psychology practical course with paper <a href="https://www.academia.edu/42028974/The_significance_of_color_and_visual_style_of_a_call_to_action_button_on_the_conversion_rates_of_a_web_application" target="_blank">The significance of color and visual style of a call-to-action button on the conversion rates of a web application.</a> and Bachelor Thesis entitled <a href="https://www.academia.edu/42028973/The_button_as_a_user_interface_component_variables_of_its_display_and_their_effects_on_usability" target="_blank">The button as a user interface component - variables of its display and their effects on usability.</a>
 
   - degree: Psychology
     time: October 2008 - March 2010
     university: LMU München
     details: Three semesters of intensive and comprehensive psychological studies in the fields of statistics, perception, emotion, motivation, developmental psychology, biological and clinical psychology.
 
-  - degree: German/English
+  - degree: German / English
     time: September 2003 - June 2008
     university: Language School
     details: Over 1600 hours of German lessons, Over 400 hours of English. Maintenance of the website and forum of the high school.
@@ -115,7 +123,7 @@ certifications:
     details: <a href="https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/52~329209/pdf" target="_blank">Certificate</a>
 
 skills:
-  - category: Skills And Tools
+  - category: Skills and Tools
     skill:
       - ECMAScript 5/6
       - NodeJS

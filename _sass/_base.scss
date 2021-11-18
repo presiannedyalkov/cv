@@ -15,6 +15,17 @@ a {
     text-decoration-color: var(--fg-color-dark);
 }
 
+a:visited {
+    color: var(--fg-color-visited);
+}
+a:hover {
+    color: var(--fg-color-visited);
+}
+.mdi {
+    color: var(--fg-color);
+    font-size: 20px;
+}
+
 .container {
     max-width: 900px;
     min-height: 900px;
@@ -32,6 +43,7 @@ a {
         grid-template-columns: 2fr 5fr;
         .sidebar {
             margin-top: 20px;
+            padding-right: 20px;
         }
     }
 }
