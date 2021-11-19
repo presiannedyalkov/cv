@@ -5,7 +5,12 @@
     {% for lang in languages %}
         <div class="language">
             <div class="idiom">{{lang.idiom}}</div>
-            <div class="level">{{lang.level}}</div>
+            
+            {% if lang.link %}
+                <div class="level"><a href="{{lang.link | absolute_url}}" target="_blank">{{lang.level}}</a></div>
+                {% else %}
+                <div class="level">{{lang.level}}</div>
+            {% endif %}
         </div>
     {% endfor %}
 </section>

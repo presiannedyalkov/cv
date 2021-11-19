@@ -1,0 +1,14 @@
+.personal-profile {
+    margin-bottom: 20px;
+    .title {
+        margin-top: 20px;
+        @include sub-header;
+    }
+    .profile {
+        @include body-text;
+
+        img {
+            max-width: 200px;
+        }
+    }
+}

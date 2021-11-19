@@ -11,8 +11,15 @@
                 <span class="name">{{exp.company}} {% if exp.link %} <span class="link">@ <a href="https://{{exp.link}}" target="_blank">{{exp.link}}</a></span>{% endif %}</span>
                 <span class="time">{{exp.time}}</span>
             </div> 
-            <div class="details">{{exp.details}}</div>
-            {% if exp.technologies_used %}<p class="technologies">{{data.global.technologies}}: {{exp.technologies_used}}</p>{% endif %}
+            <div class="details">
+                {{exp.details}}
+                {% if exp.technologies_used %}
+                    <p class="technologies">{{data.global.technologies}}: {{exp.technologies_used}}</p>
+                {% endif %}
+                {% if exp.cert %}
+                    <p><a href="{{exp.cert.link | absolute_url}}" target="_blank">{{exp.cert.cta}}</a></p>
+                {% endif %}
+            </div>
         </div>
        
     {% endfor %}

@@ -30,8 +30,9 @@
         label {
             cursor: pointer;
             color: var(--fg-color-dark);
-            .mdi {
-                font-size: 36px;
+            svg {
+                width: 32px;
+                height: auto;
             }
         }
     }

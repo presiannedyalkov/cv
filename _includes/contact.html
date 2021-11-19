@@ -2,41 +2,17 @@
 {% if contact %}
 <section class="contact">
     <h2 class="title">{{data.global.contact}}</h2>
-    {% if contact.email %}
-        <div class="contact-item">
-            <span class="mdi mdi-email"></span>
-            <a href="mailto:{{contact.email}}">
-                {{contact.email}}
-            </a>
-        </div>
-    {% endif %}
-
-    {% if contact.phone %}
-        <div class="contact-item">
-            <span class="mdi mdi-cellphone"></span>
-            <a href="tel:{{contact.phone}}">
-                {{contact.phone}}
-            </a>
-        </div>
+    {% for item in contact %}
+    <div class="contact-item">
+        {% if item.svgPath %}
+        <svg viewBox="0 0 24 24">
+            <path fill="currentColor" d="{{item.svgPath}}" />
+        </svg>
         {% endif %}
-        
-        {% if contact.github %}
-        <div class="contact-item">
-            <span class="mdi mdi-github"></span>
-            <a href="https://github.com/{{contact.github}}" target="_blank">
-                {{contact.github}}
-            </a>
-        </div>
-        {% endif %}
-        
-        {% if contact.linkedin %}
-        <div class="contact-item">
-            <span class="mdi mdi-linkedin"></span>
-            <a href="https://linkedin.com/in/{{contact.linkedin}}" target="_blank">
-                {{contact.linkedin}}
-            </a>
-        </div>
-    {% endif %}
-
+        <a href="{{item.link}}">
+            {{item.cta}}
+        </a>
+    </div>
+    {% endfor %}
 </section>
 {% endif %}
