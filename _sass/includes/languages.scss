@@ -15,5 +15,11 @@
     .level {
         @include body-text;
         color: var(--fg-color-title-sm);
+        a {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 }

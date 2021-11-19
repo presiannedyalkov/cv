@@ -10,10 +10,12 @@
             <div class="organization">
                 {{cert.organization}} 
                 <span class="time">{{cert.time}}</span>
-            </div> 
-            <div class="details">{{cert.details}}</div>
+            </div>
+            <div class="details">
+                {% if cert.details %} {{cert.details}} <br> {% endif %}
+                <a href="{{cert.link | absolute_url}}" target="_blank">{{cert.cta}}</a>
+            </div>
         </div>
-       
     {% endfor %}
 </section>
 {% endif %}

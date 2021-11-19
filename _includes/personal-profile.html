@@ -1,0 +1,9 @@
+{% assign profile = data.profile.personal %}
+{% if profile %}
+<section class="personal-profile">
+    <h2 class="title">{{data.global.personal}}</h2>
+    <div class="profile">
+        <a href="{{profile.link | absolute_url}}" target="_blank">{{profile.cta}}</a>
+    </div>
+</section>
+{% endif %}

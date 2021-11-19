@@ -11,7 +11,12 @@
                 {{ed.university}}
                 <span class="time">{{ed.time}}</span>
             </div> 
-            <div class="details">{{ed.details}}</div>
+            <div class="details">
+                {{ed.details}}
+                {% if ed.link %}
+                    <a href="{{ed.link | absolute_url}}" target="_blank">{{ed.cta}}</a>
+                {% endif %}
+            </div>
         </div>
     {% endfor %}
 </section>
