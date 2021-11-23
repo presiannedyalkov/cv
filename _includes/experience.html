@@ -14,7 +14,11 @@
             <div class="details">
                 {{exp.details}}
                 {% if exp.technologies_used %}
-                    <p class="technologies">{{data.global.technologies}}: {{exp.technologies_used}}</p>
+                    <p class="technologies">{{data.global.technologies}}: 
+                    {% for technology in exp.technologies_used %}
+                        {{technology}}{% unless forloop.last %}, {% endunless %}
+                    {% endfor %}
+                    </p>
                 {% endif %}
                 {% if exp.cert %}
                     <p><a href="{{exp.cert.link | absolute_url}}" target="_blank">{{exp.cert.cta}}</a></p>
