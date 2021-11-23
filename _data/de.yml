@@ -197,7 +197,7 @@ certifications:
     time: Mai 2013
     organization: Stanford University via Coursera
     cta: Zertifikat ansehen
-    link: https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/52~329209/pdf
+    link: /assets/pdf/CS-101.pdf
 
 skills:
   - category: Programmierkenntnisse
