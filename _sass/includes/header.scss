@@ -26,6 +26,9 @@
             width: 0;
             height: 0;
             display: none;
+            position: absolute;
+            opacity: 0;
+            z-index: -1;
         }
         label {
             cursor: pointer;

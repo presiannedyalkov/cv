@@ -7,11 +7,10 @@
         // margin:0;
         box-shadow: none;
         .container-block {
-
             .sidebar {
                 div {
                     text-align: left;
-                }                
+                }
             }
         }
     }
@@ -26,11 +25,27 @@
     .header {
         align-items: flex-start !important;
         flex-direction: column !important;
-        .title {
-            margin: 0 auto;
-        }
         .options {
             margin-top: 10px;
+        }
+    }
+    .skills {
+        &-tab {
+            &-label {
+                &::after {
+                    opacity: 1 !important;
+                }
+            }
+            &-content {
+                max-height: 0 !important;
+            }
+            input[type="checkbox"] {
+                &:checked {
+                    ~ .skills-tab-content {
+                        max-height: 100vh !important;
+                    }
+                }
+            }
         }
     }
 }
