@@ -1,0 +1,9 @@
+{% assign qr = data.qr %}
+{% if qr %}
+<section class="qr">
+    <img src="data:image/png;base64,{{qr.base64}}" alt="QR Code">
+    <a href="{{qr.link}}">
+        {{qr.link}}
+    </a>
+</section>
+{% endif %}

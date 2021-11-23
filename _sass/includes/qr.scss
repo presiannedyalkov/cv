@@ -1,0 +1,11 @@
+.qr {
+    display: none;
+    img {
+        width: 120px;
+    }
+    a {
+        text-decoration: none;
+        margin-top: 10px;
+        @include body-text;
+    }
+}
