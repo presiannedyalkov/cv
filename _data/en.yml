@@ -198,7 +198,7 @@ certifications:
     time: May 2013
     organization: Stanford University via Coursera
     cta: View Certificate
-    link: https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/52~329209/pdf
+    link: /assets/pdf/CS-101.pdf
 
 skills:
   - category: Skills and Tools
