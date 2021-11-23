@@ -1,6 +1,7 @@
 Forked from https://github.com/Stavrospanakakis/jekyll-cv
 
 ### TO DO:
- - [x] add pdfs
- - [x] add career profile
- - [x] add galeria experiance
+ - [ ] fix mobile language options
+ - [ ] fix mobile night mode
+ - [ ] change order of sections for mobile - show sidebar second not first
+ - [ ] test with lighthouse and fix problems

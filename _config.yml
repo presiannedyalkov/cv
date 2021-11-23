@@ -7,6 +7,7 @@ markdown: kramdown
 support_dark_mode: true
 locale: en
 incremental: true
+google_analytics: G-VBEG5JGZZK
 
 sass:
   sass_dir: _sass
