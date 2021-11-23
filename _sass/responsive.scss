@@ -24,12 +24,13 @@
         }
     }
     .header {
-        display: block;
+        align-items: flex-start !important;
+        flex-direction: column !important;
         .title {
-            margin:0 auto;
+            margin: 0 auto;
         }
-        input, label {
-            display: none;
+        .options {
+            margin-top: 10px;
         }
     }
 }
