@@ -2,10 +2,19 @@
 {% if skills %}
 <section class="skills">
     {% for sks in skills %}
-        <h2 class="title">{{sks.category}}</h2>
-        {% for sk in sks.skill%}
-            <div class="skill">{{sk}}</div>
-        {% endfor %}
+        <div class="skills-tab">
+            <input type="checkbox" id="chck{{forloop.index}}">
+            <label class="skills-tab-label" for="chck{{forloop.index}}">
+                <h2 class="title">
+                    {{sks.category}}
+                </h2>
+            </label>
+            {% for sk in sks.skill%}
+            <div class="skills-tab-content">
+                {{sk}}
+            </div>
+            {% endfor %}
+        </div>
     {% endfor %}
 </section>
 {% endif %}

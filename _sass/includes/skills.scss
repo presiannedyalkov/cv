@@ -1,10 +1,55 @@
 .skills {
     margin-bottom: 20px;
     .title {
-        margin-top: 20px;
         @include sub-header;
     }
-    .skill {
-        @include body-text;
+    &-tab {
+        width: 100%;
+        overflow: hidden;
+        &-label {
+            display: flex;
+            align-items: center;
+            cursor: text;
+            &::after {
+                opacity: 0;
+                content: "\276F";
+                width: 16px;
+                height: 16px;
+                padding: 0 0 8px 10px;
+                text-align: center;
+                transition: all 0.35s;
+            }
+        }
+        &-content {
+            @include body-text;
+            max-height: 100vh;
+            transition: all 0.35s;
+        }
+        &-close {
+            display: flex;
+            justify-content: flex-end;
+            padding: 16px;
+            background: white;
+            cursor: pointer;
+        }
+        input[type="checkbox"] {
+            width: 0;
+            height: 0;
+            display: none;
+            position: absolute;
+            opacity: 0;
+            z-index: -1;
+            &:checked {
+                + .skills-tab-label {
+                    &::after {
+                        transform: rotate(90deg);
+                        padding: 0 0 20px 0;
+                    }
+                }
+                ~ .skills-tab-content {
+                    max-height: 100vh;
+                }
+            }
+        }
     }
 }

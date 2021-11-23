@@ -7,11 +7,10 @@
         // margin:0;
         box-shadow: none;
         .container-block {
-
             .sidebar {
                 div {
                     text-align: left;
-                }                
+                }
             }
         }
     }
@@ -24,12 +23,29 @@
         }
     }
     .header {
-        display: block;
-        .title {
-            margin:0 auto;
+        align-items: flex-start !important;
+        flex-direction: column !important;
+        .options {
+            margin-top: 10px;
         }
-        input, label {
-            display: none;
+    }
+    .skills {
+        &-tab {
+            &-label {
+                &::after {
+                    opacity: 1 !important;
+                }
+            }
+            &-content {
+                max-height: 0 !important;
+            }
+            input[type="checkbox"] {
+                &:checked {
+                    ~ .skills-tab-content {
+                        max-height: 100vh !important;
+                    }
+                }
+            }
         }
     }
 }
