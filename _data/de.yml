@@ -45,7 +45,8 @@ languages:
 
 # Profile
 profile:
-  career: Lorem ipsum in Deutsch
+  career: |
+    Ich bin ein Webentwickler mit einer Leidenschaft für die pragmatische Erstellung brauchbarer Anwendungen. Ich bin in agilen Praktiken versiert und verwende verschiedene Ansätze, um meine Arbeit zu erledigen. Im Mittelpunkt all meiner Überlegungen steht die Perspektive des Endbenutzers, und ich versuche immer, den Wert zu verstehen, den das Unternehmen für ihn schafft. Aus Entwicklersicht bin ich fest davon überzeugt, dass der Codierungsverfahren nach Clean Code-Praktiken sauber gehalten werden sollte. Das Herstellen einer direkten Verbindung zwischen Geschäftslogik, Geschäftsanforderungen und Anwendungscode ist für die Anwendungsoptimierung von entscheidender Bedeutung, daher kommuniziere ich proaktiv mit den relevanten Stakeholdern. Mit einem Jahrzehnt an Programmiererfahrung bringe ich eine Vielzahl von Sprachen und Tools sowie ein tiefes Verständnis der zugrunde liegenden Geschäftsabläufe mit, die die Geschäftslogik der Anwendung bestimmen. Immer mit dem Blick für das große Ganze bin ich in der Lage, die anstehenden Aufgaben und ihren unmittelbaren und zukünftigen Wert für das Unternehmen einzuschätzen. Meine Freizeit teile ich zwischen kreativen Unternehmungen und dem Erlernen neuer Dinge auf. Ich gehe Probleme mit einem Lächeln an und ich bemühe mich, sinnvolle und wertvolle Verbindungen zu Menschen aufzubauen.
   personal:
     cta: Profil ansehen
     link: /assets/pdf/Color-Profile-de.pdf
@@ -57,12 +58,19 @@ experience:
     company: GALERIA Kaufhof
     link: www.galeria.de
     details: |
-      Lorem
-    technologies_used: |
-      SFCC, Javascript
+      Backend Javascript Entwickler im Plattform-Management Team; Weiterentwicklung von <a href="https://www.galeria.de/" target="_blank">galeria.de</a> mit Salesforce Commerce Cloud; Anpassung und Entwicklung von Business Logik in serverseitigem Javascript; Entwicklung von Anwendungskomponenten in Vue.js; Optimierung und Weiterentwicklung des Frontends eines responsiven Webshops; Unabhängige und proaktive Analyse; Entwicklung von Refactoring-Strategien zur Verbesserung der Wartbarkeit und der allgemeinen Qualität des Codes durch Einführung von Clean-Code-Prinzipien.
+    technologies_used:
+      - SFCC
+      - Javascript
+      - <b>Vue</b>
+      - <b>PWA</b>
+      - Jira
+      - Confluence
+      - Github
+      - GTM
     cert:
       cta: Arbeitszeugniss ansehen
-      link: /assets/pdf/.pdf # TODO: add 
+      link: /assets/pdf/Galeria-Abschlusszeugnis.pdf
 
   - role: Entwickler
     time: Oktober 2018 - Juli 2020
@@ -70,8 +78,15 @@ experience:
     link: www.nexum.com
     details: |
       Salesforce Commerce Cloud Relaunch für <a href="https://www.mustang-jeans.com/" target="_blank">Mustang Jeans</a> - Entwicklung von Frontend Komponente und Templates, APIs, Jobs, Store Locator, Mitentwicklung von Checkout; SFCC Launch für <a href="https://www.avoury.com/" target="_blank">Melitta Single Portions</a> - Entwicklung von APIs, Anschluss von Marketing Cloud, OCAPI Support und Erweiterung für ein abgekoppeltes React Frontend, Page Designer Komponente für das abgekoppelte React Frontend; <i>Technical Lead</i> für <a href="https://www.bergerschuhe.ch/" target="_blank">Berger Sport und Schuhe</a> - Architektur - APIs (PIM, ERP, Payment, Marketing Cloud), Import/Export Integration Scenarios, funktionale und technische Spezifikationen von Frontend und Backend, DevOps - Code Standards, Code Reviews, Code Setup, Code Testing, Sprint Planing, Dokumentation, CI Pipeline, Absprache mit involvierten Partners (PIM, ERP, Kunde), <i>Leitung</i> von 3 Mitarbeitern. Seit Anfang 2020 in Technical Lead Mentoring als Mentee und in interner DevOps Team. 
-    technologies_used: |
-      SFCC, OCAPI, Javascript, Atlassian Stack, CI/CD
+    technologies_used:
+      - SFCC
+      - <b>OCAPI</b>
+      - Marketing Cloud
+      - Javascript
+      - Jira
+      - Confluence
+      - Bamboo
+      - <b>GTM</b>
     cert:
       cta: Arbeitszeugniss ansehen
       link: /assets/pdf/Nexum-Abschlusszeugnis.pdf
@@ -81,8 +96,14 @@ experience:
     company: Nexum AG
     details: |
       Frontend Web Entwicklung: Entwicklung von Atomic Design Components für <a href="https://www.coop.ch/" target="_blank">Coop</a> in PUG, SASS+BEM, jQuery; Entwicklung von <a href="https://www.coop-restaurant.ch/" target="_blank">Coop Restaurant</a>; Finale Phase bei Relaunch von <a href="https://www.bachmann.com/" target="_blank">Bachmann</a> - Komponenten- und Template-Fixing und neue erstellen; React Komponente für <a href="https://www.compo.de/" target="_blank">Compo</a>; Komponenten und Templates für <a href="https://karriere.fresenius.de/" target="_blank">Fresenius Careers</a>; Frontend Suche für <a href="https://www.kautex.com/" target="_blank">Kautex Textron</a>; Finale Phase bei Relaunch von <a href="https://www.nrwinvest.com/" target="_blank">NRW Invest</a> - finale Anpassungen, Bugfixing, letzte Komponenten; Landingpage für <a href="https://www.babyone.de/" target="_blank">BabyOne</a> auf die Commerce Cloud Platform.
-    technologies_used: |
-      PUG, SASS + BEM, jQuery, React
+    technologies_used:
+      - <b>PUG</b>
+      - SASS + BEM
+      - jQuery
+      - <b>React</b>
+      - Jira
+      - Confluence
+      - Bamboo
 
   - role: Frontend Web Entwickler (Werkstudent)
     time: Dezember 2012 - Juli 2017
@@ -90,11 +111,21 @@ experience:
     link: www.butlers.com
     details: |
       Pixelgenaue Umsetzung von PSD zu HTML, CSS & jQuery. Management und Pflege von Online-Shop Content, Landing Pages, Campaigns & Promotions in Demandware (Commerce Cloud). Absprache und Expertisenumtausch mit Campaign, Marketing, Grafik Teams. Einarbeitung und Schulung von neuen Personal. Mitentwicklung von einem Frontend und Backend Relaunch - Entwicklung von Komponenten und Templates, Integration von APIs. 
-    technologies_used: |
-      HTML, CSS, jQuery, SASS
+    technologies_used:
+      - HTML
+      - CSS
+      - <b>SASS</b>
+      - Javascript
+      - <b>jQuery</b>
+      - <b>DemandwareScript</b>
+      - <b>Jira</b>
+      - <b>Confluence</b>
+      - <b>Basecamp</b>
+      - <b>Marketing Cloud</b>
+      - <b>Google Analytics</b>
     cert:
       cta: Arbeitszeugniss ansehen
-      link: /assets/pdf/.pdf # TODO: add 
+      link: /assets/pdf/Butlers-Abschlusszeugnis.pdf
 
   - role: Beikoch
     time: Juni 2011 - Oktober 2012
@@ -105,8 +136,8 @@ experience:
     company: Check24
     details: |
       Eingabe von Versicherungen im Backend System. Pflege und Bereinigung der Kundendatenbanken in Excel.
-    technologies_used: |
-      Excel
+    technologies_used:
+      - Excel
 
 education:
   - degree: Medienwissenschaft / Medienpsychologie, B.A.
@@ -143,6 +174,12 @@ certifications:
     cta: Zertifikat ansehen
     link: https://www.coursera.org/account/accomplishments/certificate/U6E3UFGS7W3K
 
+  - name: Typologie
+    time: Mai 2019
+    organization: Nexum, PE Support 
+    cta: Zertifikat ansehen
+    link: /assets/pdf/Typologie-Seminar.pdf
+
   - name: Commerce Cloud Entwickler
     time: März 2019
     organization: Salesforce    
@@ -154,7 +191,7 @@ certifications:
     organization: Universität zu Köln
     details: Allgemeine Informationstechnologien I, Allgemeine Technologien II, Advanced Markup & Metadata, Digital Objects Processing - CMS
     cta: Zertifikat ansehen
-    link: /assets/pdf/Introduction-to-Sustainable-Finance.pdf
+    link: /assets/pdf/IT-Zertifikat.pdf
 
   - name: Computer Science 101
     time: Mai 2013
@@ -165,34 +202,44 @@ certifications:
 skills:
   - category: Programmierkenntnisse
     skill:
-      - ECMAScript 5/6
+      - Javascript
       - NodeJS
-      - Commerce Cloud
       - ExpressJS
       - JQuery
+      - React
+      - Vue
       - Webpack/Grunt/Gulp
       - Git
       - Github
       - Bitbucket
+      - Bamboo
+      - Agile Development
+      - SCRUM, Kanban
       - Jira
       - Confluence
-      - Bamboo
+      - Basecamp
+      - Publitas
+      - GTM
       - Bash
       - Powershell
+      - Regex
       - HTML5
       - XML
+      - ISML
+      - PUG
+      - Jekyll
+      - Wordpress
+      - Drupal
       - CSS/SCSS
+      - Prepros/Koala
       - Bootstrap
-      - React
-      - Vue
       - JSON
       - Postman
       - Rest
+      - Commerce Cloud
       - Marketing Cloud
       - AWS
-      - Regex
       - CodeceptJS
-      - Jekyll
   
   - category: Hobbys
     skill:

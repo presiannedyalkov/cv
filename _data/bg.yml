@@ -45,7 +45,8 @@ languages:
 
 # Profile
 profile:
-  career: Lorem ipsum на български
+  career: |
+    Аз съм уеб разработчик със страст към прагматично създаване на използваеми приложения. Запознат с Agile практиките, използвам различни подходи, за да свърша работата. В центъра на всички мои съображения е гледната точка на крайния потребител и винаги се стремя да разбера стойността, която бизнесът създава за него. От перспективата на програмист, аз съм категоричен, че процесът на кодиране трябва да се поддържа изряден, следвайки практиките на Clean Code. Създаването на директна връзка между бизнес логиката, бизнес изискванията и кода на приложението е от решаващо значение за оптимизиране на апликацията, така че участвам в проактивна комуникация със съответните заинтересовани страни. С десетилетен опит в кодирането, нося със себе си познанията за множество езици и инструменти, както и дълбоко разбиране на основните бизнес операции, диктуващи бизнес логиката на приложението. Винаги опитвайки се да видя голямата картина, аз съм способен да преценя задачите, които се изпълняват, и тяхната непосредствена и бъдеща стойност за бизнеса. Разделям свободното си време между творчески начинания и научаване на нови неща. Посрещам проблемите с усмивка и се стремя да създавам смислени и ценни връзки с хората.
   personal:
     cta: Виж профил
     link: /assets/pdf/Color-Profile-en.pdf
@@ -57,12 +58,19 @@ experience:
     company: GALERIA Kaufhof
     link: www.galeria.de
     details: |
-      Lorem
-    technologies_used: |
-      SFCC, Javascript
+      Backend Javascript програмист в екипа за управление на платформата; По-нататъшно развитие на <a href="https://www.galeria.de/" target="_blank">galeria.de</a> с Salesforce Commerce Cloud; Адаптиране и развитие на бизнес логика в сървърен Javascript; Разработване на компоненти на приложението във Vue.js; Оптимизиране и по-нататъшно развитие на фронтенд на responsive уеб магазин; Независим и проактивен анализ; Разработване на стратегии за рефакторинг за подобряване на поддръжката и общото качество на кода чрез въвеждане на принципи на чист код.
+    technologies_used:
+      - SFCC
+      - Javascript
+      - <b>Vue</b>
+      - <b>PWA</b>
+      - Jira
+      - Confluence
+      - Github
+      - GTM
     cert:
       cta: Виж препоръка
-      link: /assets/pdf/.pdf # TODO: add 
+      link: /assets/pdf/Galeria-Abschlusszeugnis.pdf
 
   - role: Програмист
     time: Октомври 2018 - Юли 2020
@@ -70,8 +78,14 @@ experience:
     link: www.nexum.com
     details: |
       Рестартиране на магазина на <a href="https://www.mustang-jeans.com/" target="_blank">Mustang Jeans</a> със Salesforce Commerce Cloud - разработване на компоненти и шаблони на интерфейса, APIs, автоматизирани задачи, локатор на магазини, съвместно разработване на каса; Стартиране на SFCC за <a href="https://www.avoury.com/" target="_blank">Melitta Single Portions</a> - разработване на API, свързване на Marketing Cloud, поддръжка на OCAPI и разширение за React фронтенд (headless), компоненти за дизайнер на страници за React фронтенд (headless); <i>Технически ръководител</i> за <a href="https://www.bergerschuhe.ch/" target="_blank">Berger Sport und Schuhe</a> - Архитектура - API (PIM, ERP, плащане, Marketing Cloud), сценарии за интеграция на импорт/експорт, функционални и технически спецификации на фронтенд и бекенд, DevOps - код стандарт, код ревю, настройка на код и среда, тестване на код, планиране на спринт, документация, CI/CD pipelines, консултация с участващи партньори (PIM, ERP, клиент), <i>мениджмънт</i> на 3 служители.<br> От началото на 2020 г. в програма за менторство за технически ръководител като наставляван и във вътрешен DevOps екип.
-    technologies_used: |
-      SFCC, OCAPI, Javascript, Atlassian Stack, CI/CD
+    technologies_used:
+      - SFCC
+      - <b>OCAPI</b>
+      - Javascript
+      - Jira
+      - Confluence
+      - Bamboo
+      - <b>GTM</b>
     cert:
       cta: Виж препоръка
       link: /assets/pdf/Nexum-Abschlusszeugnis.pdf
@@ -81,8 +95,14 @@ experience:
     company: Nexum AG
     details: |
       Фронтенд уеб разработка: Разработване на компоненти за атомен дизайн за <a href="https://www.coop.ch/" target="_blank">Coop</a> с PUG, SASS + BEM, jQuery; Разработване на <a href="https://www.coop-restaurant.ch/" target="_blank">Coop Restaurant</a>; Финална фаза при рестартиране на <a href="https://www.bachmann.com/" target="_blank">Bachmann</a> - коригиране на компоненти и шаблони и създаване на нови; React компонент за <a href="https://www.compo.de/" target="_blank">Compo</a>; Компоненти и шаблони за <a href="https://karriere.fresenius.de/" target="_blank">Fresenius Careers</a>; Фронтенд на търсачка за <a href="https://www.kautex.com/" target="_blank">Kautex Textron</a>; Финална фаза при рестартиране на <a href="https://www.nrwinvest.com/" target="_blank">NRW Invest</a> - окончателни корекции, коригиране на грешки, крайни компоненти; Целева страница за <a href="https://www.babyone.de/" target="_blank">BabyOne</a> на Commerce Cloud.
-    technologies_used: |
-      PUG, SASS + BEM, jQuery, React
+    technologies_used:
+      - <b>PUG</b>
+      - SASS + BEM
+      - jQuery
+      - <b>React</b>
+      - Jira
+      - Confluence
+      - Bamboo
 
   - role: Фронтенд програмист (работещ студент)
     time: Декември 2012 - Юли 2017
@@ -90,11 +110,21 @@ experience:
     link: www.butlers.com
     details: |
       Прецизно програмиране на PSD в HTML, CSS и jQuery. Управление и поддръжка на съдържание на онлайн магазина, целеви страници, кампании и промоции в Demandware (Commerce Cloud). Консултации и обмен на опит с екипи за кампании, маркетинг, графика. Обучение на нов персонал в Demandware. Съвместна разработка на фронт и бекенд рестарт - разработка на компоненти и шаблони, интегриране на API. Marketing Cloud темплейти.
-    technologies_used: |
-      HTML, CSS, jQuery, SASS
+    technologies_used:
+      - HTML
+      - CSS
+      - <b>SASS</b>
+      - Javascript
+      - <b>jQuery</b>
+      - <b>DemandwareScript</b>
+      - <b>Jira</b>
+      - <b>Confluence</b>
+      - <b>Basecamp</b>
+      - <b>Marketing Cloud</b>
+      - <b>Google Analytics</b>
     cert:
       cta: Виж препоръка
-      link: /assets/pdf/.pdf # TODO: add 
+      link: /assets/pdf/Butlers-Abschlusszeugnis.pdf
 
   - role: Помощник-готвач
     time: Юни 2011 - Октомври 2012
@@ -105,8 +135,8 @@ experience:
     company: Check24
     details: |
       Въвеждане на застрахователна информация в бекенд системата. Поддръжка и почистване на клиентски бази данни в Excel.
-    technologies_used: |
-      Excel
+    technologies_used:
+      - Excel
 
 education:
   - degree: Бакалавър Наука за медийна култура / Медийна психология
@@ -141,9 +171,15 @@ certifications:
 
   - name: Социални норми, социална промяна II
     time: Септември 2020
-    organization: Университет на Пенсилвания, Unicef via Coursera
+    organization: Университет на Пенсилвания, Unicef през Coursera
     cta: Виж сертификат
     link: https://www.coursera.org/account/accomplishments/certificate/U6E3UFGS7W3K
+
+  - name: Типология
+    time: Май 2019
+    organization: Nexum, PE Support 
+    cta: Виж сертификат
+    link: /assets/pdf/Typologie-Seminar.pdf
 
   - name: Commerce Cloud Developer
     time: Март 2019
@@ -156,7 +192,7 @@ certifications:
     organization: Университет на Кьолн
     details: Общи информационни технологии I, Общи технологии II, Разширен маркъп и метаданни, Обработка на дигитални обекти - CMS
     cta: Виж сертификат
-    link: /assets/pdf/Introduction-to-Sustainable-Finance.pdf
+    link: /assets/pdf/IT-Zertifikat.pdf
 
   - name: Компютърни науки 101
     time: Май 2013
@@ -167,34 +203,44 @@ certifications:
 skills:
   - category: Умения и инструменти
     skill:
-      - ECMAScript 5/6
+      - Javascript
       - NodeJS
-      - Commerce Cloud
       - ExpressJS
       - JQuery
+      - React
+      - Vue
       - Webpack/Grunt/Gulp
       - Git
       - Github
       - Bitbucket
+      - Bamboo
+      - Agile Development
+      - SCRUM, Kanban
       - Jira
       - Confluence
-      - Bamboo
+      - Basecamp
+      - Publitas
+      - GTM
       - Bash
       - Powershell
+      - Regex
       - HTML5
       - XML
+      - ISML
+      - PUG
+      - Jekyll
+      - Wordpress
+      - Drupal
       - CSS/SCSS
+      - Prepros/Koala
       - Bootstrap
-      - React
-      - Vue
       - JSON
       - Postman
       - Rest
+      - Commerce Cloud
       - Marketing Cloud
       - AWS
-      - Regex
       - CodeceptJS
-      - Jekyll
   
   - category: Хобита
     skill:
