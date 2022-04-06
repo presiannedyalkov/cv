@@ -38,13 +38,13 @@ languages:
   - idiom: Български
     level: майчин език
   - idiom: Немски
-    level: 15+ години, DAF, DSH
+    level: 15+ години, DSH
     link: /assets/pdf/DSH-Zeugnis.pdf
   - idiom: Английски
     level: 20+ години, CAE C2
     link: /assets/pdf/CAE.pdf
   - idiom: Испански
-    level: 6 месеца, уча
+    level: 9 месеца, уча
     link: https://www.duolingo.com/profile/p.nedyalkov
 
 # Profile
@@ -181,7 +181,7 @@ certifications:
 
   - name: Типология
     time: Май 2019
-    organization: Nexum, PE Support 
+    organization: Nexum, PE Support
     cta: Виж сертификат
     link: /assets/pdf/Typologie-Seminar.pdf
 
@@ -249,7 +249,7 @@ skills:
       - Marketing Cloud
       - AWS
       - CodeceptJS
-  
+
   - category: Хобита
     skill:
       - Философия

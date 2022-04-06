@@ -38,13 +38,13 @@ languages:
   - idiom: Bulgarisch
     level: Muttersprache
   - idiom: Deutsch
-    level: 15+ Jahre, DAF, DSH
+    level: 15+ Jahre, DSH
     link: /assets/pdf/DSH-Zeugnis.pdf
   - idiom: Englisch
     level: 20+ Jahre, CAE C2
     link: /assets/pdf/CAE.pdf
   - idiom: Spanisch
-    level: 6 Monate, lernen
+    level: 9 Monate, lernen
     link: https://www.duolingo.com/profile/p.nedyalkov
 
 # Profile
@@ -81,7 +81,7 @@ experience:
     company: Nexum AG
     link: www.nexum.com
     details: |
-      Salesforce Commerce Cloud Relaunch für <a href="https://www.mustang-jeans.com/" target="_blank">Mustang Jeans</a> - Entwicklung von Frontend Komponente und Templates, APIs, Jobs, Store Locator, Mitentwicklung von Checkout; SFCC Launch für <a href="https://www.avoury.com/" target="_blank">Melitta Single Portions</a> - Entwicklung von APIs, Anschluss von Marketing Cloud, OCAPI Support und Erweiterung für ein abgekoppeltes React Frontend, Page Designer Komponente für das abgekoppelte React Frontend; <i>Technical Lead</i> für <a href="https://www.bergerschuhe.ch/" target="_blank">Berger Sport und Schuhe</a> - Architektur - APIs (PIM, ERP, Payment, Marketing Cloud), Import/Export Integration Scenarios, funktionale und technische Spezifikationen von Frontend und Backend, DevOps - Code Standards, Code Reviews, Code Setup, Code Testing, Sprint Planing, Dokumentation, CI Pipeline, Absprache mit involvierten Partners (PIM, ERP, Kunde), <i>Leitung</i> von 3 Mitarbeitern. Seit Anfang 2020 in Technical Lead Mentoring als Mentee und in interner DevOps Team. 
+      Salesforce Commerce Cloud Relaunch für <a href="https://www.mustang-jeans.com/" target="_blank">Mustang Jeans</a> - Entwicklung von Frontend Komponente und Templates, APIs, Jobs, Store Locator, Mitentwicklung von Checkout; SFCC Launch für <a href="https://www.avoury.com/" target="_blank">Melitta Single Portions</a> - Entwicklung von APIs, Anschluss von Marketing Cloud, OCAPI Support und Erweiterung für ein abgekoppeltes React Frontend, Page Designer Komponente für das abgekoppelte React Frontend; <i>Technical Lead</i> für <a href="https://www.bergerschuhe.ch/" target="_blank">Berger Sport und Schuhe</a> - Architektur - APIs (PIM, ERP, Payment, Marketing Cloud), Import/Export Integration Scenarios, funktionale und technische Spezifikationen von Frontend und Backend, DevOps - Code Standards, Code Reviews, Code Setup, Code Testing, Sprint Planing, Dokumentation, CI Pipeline, Absprache mit involvierten Partners (PIM, ERP, Kunde), <i>Leitung</i> von 3 Mitarbeitern. Seit Anfang 2020 in Technical Lead Mentoring als Mentee und in interner DevOps Team.
     technologies_used:
       - SFCC
       - <b>OCAPI</b>
@@ -114,7 +114,7 @@ experience:
     company: Butlers
     link: www.butlers.com
     details: |
-      Pixelgenaue Umsetzung von PSD zu HTML, CSS & jQuery. Management und Pflege von Online-Shop Content, Landing Pages, Campaigns & Promotions in Demandware (Commerce Cloud). Absprache und Expertisenumtausch mit Campaign, Marketing, Grafik Teams. Einarbeitung und Schulung von neuen Personal. Mitentwicklung von einem Frontend und Backend Relaunch - Entwicklung von Komponenten und Templates, Integration von APIs. 
+      Pixelgenaue Umsetzung von PSD zu HTML, CSS & jQuery. Management und Pflege von Online-Shop Content, Landing Pages, Campaigns & Promotions in Demandware (Commerce Cloud). Absprache und Expertisenumtausch mit Campaign, Marketing, Grafik Teams. Einarbeitung und Schulung von neuen Personal. Mitentwicklung von einem Frontend und Backend Relaunch - Entwicklung von Komponenten und Templates, Integration von APIs.
     technologies_used:
       - HTML
       - CSS
@@ -160,7 +160,7 @@ education:
     details: Über 1600 Stunden Deutschunterricht, über 400 Stunden Englisch. Betreuung von Webseite und Forum des Gymnasiums.
 
 certifications:
-  - name: Introduction to Sustainable Finance	
+  - name: Introduction to Sustainable Finance
     time: May 2021
     organization: UN CC:e-Learn
     cta: Zertifikat ansehen
@@ -180,13 +180,13 @@ certifications:
 
   - name: Typologie
     time: Mai 2019
-    organization: Nexum, PE Support 
+    organization: Nexum, PE Support
     cta: Zertifikat ansehen
     link: /assets/pdf/Typologie-Seminar.pdf
 
   - name: Commerce Cloud Entwickler
     time: März 2019
-    organization: Salesforce    
+    organization: Salesforce
     cta: Details zur Zertifizierung ansehen
     link: https://trailhead.salesforce.com/credentials/certification-detail-print?searchString=0jjdR6MBNhx+7aA5OV4arAjHt6I6xMZcxpc77z+zobMt8GOf+4WGH+3O3hxGkJbw
 
@@ -248,7 +248,7 @@ skills:
       - Marketing Cloud
       - AWS
       - CodeceptJS
-  
+
   - category: Hobbys
     skill:
       - Philosophie
@@ -264,7 +264,7 @@ skills:
       - Gitarre
       - Blockchain
       - 3D Drucken
-  
+
   - category: Persönliche Fähigkeiten
     skill:
       - Strukturiert

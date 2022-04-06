@@ -3,21 +3,27 @@
 <section class="education">
     <h2 class="title">{{data.global.education}}</h2>
     {% for ed in education %}
-        <div class="education-item">
-            <div class="degree">
-                {{ed.degree}}
-            </div>
-            <div class="university">
-                {{ed.university}}
-                <span class="time">{{ed.time}}</span>
-            </div> 
-            <div class="details">
-                {{ed.details}}
-                {% if ed.link %}
-                    <p><a href="{{ed.link | absolute_url}}" target="_blank">{{ed.cta}}</a></p>
-                {% endif %}
-            </div>
+    <div class="education-item">
+        <div class="degree">
+            {{ed.degree}}
         </div>
+        <div class="university">
+            {{ed.university}}
+            <span class="time">{{ed.time}}</span>
+        </div>
+        <div class="details">
+            {% if ed.details %}
+            <ul>
+                {% for detail in ed.details %}
+                <li>{{detail}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if ed.link %}
+            <p><a href="{{ed.link | absolute_url}}" target="_blank">{{ed.cta}}</a></p>
+            {% endif %}
+        </div>
+    </div>
     {% endfor %}
 </section>
 {% endif %}
