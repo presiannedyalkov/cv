@@ -29,7 +29,7 @@ contact:
     cta: presiannedyalkov
     link: https://github.com/presiannedyalkov
     svgPath: "M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
-  
+
 qr:
   base64: iVBORw0KGgoAAAANSUhEUgAAARAAAAEQAQMAAABCxLlWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAP///6XZn90AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHoSURBVGje7ZkxcoNADEXFUFByBI7C0cjROApHoKRgrEhfWhJscMaQ8qvBC8+NVtLXrqRYP4lU+tXr4g+RZpVnI/KEDOpmSLv6YpL6gXer4MODyC0EnpfeXlaqo0ittgGtI74PRP5G8FC4VYbRY5fI/yE6m+d17ICNx3tEZI9k2uuMojo1tsrYfa4MRPbIpkftGgge86FkEfkQ0WJTi6CVxnw+6C8jcoJ42tceoJ2GP8OtEbtju/iCyDFiS2h4p2v2mD9kX9KeyGUkrFME7eSNUgbtgEJL5ASxn/407851eBI9pjTJPYTIdcQqQ5vSk6eeraii1YyiSuQA8aZoRV/+2mO6482InCJS0j97TI9FFyJvhojcQlLtsQEWtCFLGkFrIbxUSuQU0U2vEcJLVEwrnHAykVNEU2x0ymYIl5QWkSgCIkTuIK5HiktKNPLRYw6xD/bvIllEXpHMd3Mkzo0aCE49RO4jrvYieV2E2PUNCCESIfIGKVZazTgwznHhBiNyjBTrLfvjXiO+xdV4SBaRy8huIuZFdaumQPzvRE6QbSLmL/scJkba93NKOZF3SEy5/cNupvgyESNyCcGUuxx+0DzZPjRE3iCZ9jERk0Aidr0Z+l0xiXyMpMVETOMKOI+W5VRO5BWp9BuonbVojCAOYAAAAABJRU5ErkJggg==
   link: https://cv.presiannedyalkov.info/
@@ -44,30 +44,34 @@ languages:
     level: 20+ Years, CAE C2
     link: /assets/pdf/CAE.pdf
   - idiom: Spanish
-    level: 6 Months, Learning
+    level: 9 Months, Learning
     link: https://www.duolingo.com/profile/p.nedyalkov
 
 # Profile
 profile:
   career: |
-    I am a web developer with a passion for creating usable applications pragmatically. Versed in Agile practices, I use different approaches to get work done. At the center of all my considerations is the end-user perspective, and I always aim to understand the value the business is creating for them. From a developer’s perspective, I am adamant that the coding process should be kept neat, following Clean Code practices. Drawing a direct connection between business logic, business requirements and application code is critical for application optimization, so I engage in proactive communication with the relevant stakeholders. With a decade of coding experience, I bring with me a multitude of languages and tools, as well as a deep understanding of the underlying business operations dictating the application's business logic. Always trying to see the big picture, I am capable of assessing the tasks at hand and their immediate and future value for the business. I divide my spare time between creative enterprises and learning new things. I approach problems with a smile and I strive to create meaningful and valuable connections with people.
+    Experienced web developer with nearly 10 years of creating usable applications pragmatically. Well-versed in Agile practices and always considerate of the end-user perspective. Strong believer in following Clean Code best practices to ensure readability and maintainability. Proven track record of connecting business logic, business requirements, and application code to develop optimized products that will please stakeholders. Seeking a new career opportunity where I can approach problems with a smile and strive to create meaningful and valuable connections with people.
   personal:
     cta: View Profile
     link: /assets/pdf/Color-Profile-en.pdf
 
 # Experience
 experience:
-  - role: Developer
+  - role: Backend Javascript Developer
     time: July 2020 - December 2021
     company: GALERIA Kaufhof
     link: www.galeria.de
-    details: |
-      Backend Javascript developer in the ​​platform management team; Further development of <a href="https://www.galeria.de/" target="_blank">galeria.de</a>  with Salesforce Commerce Cloud; Adaptation and development of business logic in server-side Javascript; Development of application components in Vue.js; Optimization and further development of the front end of a responsive web shop; Independent and proactive analysis; Development of refactoring strategies to improve the maintainability and the general quality of the code by introducing clean code principles.
+    details:
+      - Worked as a backend JavaScript developer on a platform management team.
+      - Adapted and developed business logic in server-side JavaScript.
+      - Developed <a href="https://www.galeria.de/" target="_blank">galeria.de</a> with Salesforce Commerce Cloud, as well as other application components with Vue.js.
+      - Optimized the frontend of a responsive web shop.
+      - Implemented refactor strategies to improve the maintainability and general quality of the code by introducing Clean Code principles.
     technologies_used:
       - SFCC
       - Javascript
-      - <b>Vue</b>
-      - <b>PWA</b>
+      - Vue
+      - PWA
       - Jira
       - Confluence
       - Github
@@ -76,34 +80,47 @@ experience:
       cta: View Testimonial
       link: /assets/pdf/Galeria-Abschlusszeugnis.pdf
 
-  - role: Developer
+  - role: Fullstack Developer
     time: October 2018 - July 2020
     company: Nexum AG
     link: www.nexum.com
-    details: |
-      Salesforce Commerce Cloud Relaunch for <a href="https://www.mustang-jeans.com/" target="_blank">Mustang Jeans</a> - Development of frontend components and templates, APIs, jobs, store locator, co-development of checkout; SFCC launch for <a href="https://www.avoury.com/" target="_blank">Melitta Single Portions</a> - development of APIs, connection of marketing cloud, OCAPI support and extension for a decoupled React frontend, page designer components for the decoupled React frontend; <i>Technical Lead</i> for <a href="https://www.bergerschuhe.ch/" target="_blank">Berger Sport und Schuhe</a> - Architecture - APIs (PIM, ERP, Payment, Marketing Cloud), import/export integration scenarios, functional and technical specifications of frontend and backend, DevOps - Code Standards, Code Reviews, Code Setup, Code Testing, Sprint planning, documentation, Cl pipeline, consultation with involved partners (PIM, ERP, customer), <i>management</i> of 3 employees.<br> Since the beginning of 2020 in Technical Lead Mentoring Program as a mentee and in an internal DevOps team.
+    details:
+      - Contributed to the Salesforce Commerce Cloud Relaunch for <a href="https://www.mustang-jeans.com/" target="_blank">Mustang Jeans</a>, including the development of frontend components and templates, APIs, jobs, store locator, and co-development of checkout.
+      - Worked on the SFCC launch for <a href="https://www.avoury.com/" target="_blank">Melitta Single Portions</a>, including the development of APIs, connection of marketing cloud, OCAPI support and extension for a decoupled React frontend, and page designer components for the decoupled React frontend.
+      - 'Appointed the <i>Technical Lead</i> for <a href="https://www.bergerschuhe.ch/" target="_blank">Berger Sport und Schuhe</a> and handled:'
+    details_second_level:
+      - "<u>Architecture</u>: APIs (PIM, ERP, Payment, Marketing Cloud), import/export integration scenarios, functional and technical specifications of frontend and backend, DevOps"
+      - "<u>Code Standards</u>: Code Reviews, Code Setup, Code Testing, Sprint planning, documentation, Cl pipeline, consultation with involved partners (PIM, ERP, customer)"
+      - <u>Management</u> of 3 employees.
     technologies_used:
       - SFCC
-      - <b>OCAPI</b>
+      - OCAPI
       - Javascript
       - Jira
       - Confluence
       - Bamboo
-      - <b>GTM</b>
+      - GTM
     cert:
       cta: View Testimonial
       link: /assets/pdf/Nexum-Abschlusszeugnis.pdf
 
-  - role: Developer (Working Student)
+  - role: Frontend Developer (Working Student)
     time: July 2017 - October 2018
     company: Nexum AG
-    details: |
-      Frontend Web Development: Development of Atomic Design Components for <a href="https://www.coop.ch/" target="_blank">Coop</a> in PUG, SASS + BEM, jQuery; Development of <a href="https://www.coop-restaurant.ch/" target="_blank">Coop Restaurant</a>; Final phase at the relaunch of <a href="https://www.bachmann.com/" target="_blank">Bachmann</a> - component and template fixing and creating new ones; React component for <a href="https://www.compo.de/" target="_blank">Compo</a>; Components and templates for <a href="https://karriere.fresenius.de/" target="_blank">Fresenius Careers</a>; Frontend search for <a href="https://www.kautex.com/" target="_blank">Kautex Textron</a>; Final phase at the relaunch of <a href="https://www.nrwinvest.com/" target="_blank">NRW Invest</a> - final adjustments, bug fixing, final components; Landing page for <a href="https://www.babyone.de/" target="_blank">BabyOne</a> on the Commerce Cloud Platform.
+    details:
+      - Developed Atomic Design Components for <a href="https://www.coop.ch/" target="_blank">Coop</a> in PUG, SASS + BEM, and jQuery.
+      - Worked on the development of <a href="https://www.coop-restaurant.ch/" target="_blank">Coop Restaurant</a>.
+      - Added a React component for <a href="https://www.compo.de/" target="_blank">Compo</a>.
+      - Fixed and created new templates and components during the final relaunch phase of <a href="https://www.bachmann.com/" target="_blank">Bachmann</a>.
+      - Implemented a landing page for <a href="https://www.babyone.de/" target="_blank">BabyOne</a> on the Commerce Cloud Platform.
+      - Conducted bug fixes, final adjustments, and added final components during the final relaunch phase of <a href="https://www.nrwinvest.com/" target="_blank">NRW Invest</a>.
+      - Created frontend search for <a href="https://www.kautex.com/" target="_blank">Kautex Textron</a>.
+      - Contributed components and templates for <a href="https://karriere.fresenius.de/" target="_blank">Fresenius Careers</a>.
     technologies_used:
-      - <b>PUG</b>
+      - PUG
       - SASS + BEM
       - jQuery
-      - <b>React</b>
+      - React
       - Jira
       - Confluence
       - Bamboo
@@ -112,41 +129,37 @@ experience:
     time: December 2012 - July 2017
     company: Butlers
     link: www.butlers.com
-    details: |
-      Pixel-precise conversion from PSD to HTML, CSS & jQuery. Management and maintenance of online shop content, landing pages, campaigns & promotions in Demandware (Commerce Cloud). Consultations and exchange of expertise with campaign, marketing, graphic teams. Training of new personnel in Demandware. Co-development of a frontend and backend relaunch - development of components and templates, integration of APIs. Marketing Cloud Mails.
+    details:
+      - Implemented pixel-precise conversion from PSD to HTML, CSS & jQuery.
+      - Managed and maintained online shop content, landing pages, campaigns & promotions in Demandware (Commerce Cloud).
+      - Consulted and exchanged expertise with campaign, marketing, graphic teams.
+      - Trained new personnel in Demandware.
+      - Contributed to the frontend and backend development.
+      - Developed components and templates, integrated APIs, and worked on Marketing Cloud Mails during the relaunch.
     technologies_used:
       - HTML
       - CSS
-      - <b>SASS</b>
+      - SASS
       - Javascript
-      - <b>jQuery</b>
-      - <b>DemandwareScript</b>
-      - <b>Jira</b>
-      - <b>Confluence</b>
-      - <b>Basecamp</b>
-      - <b>Marketing Cloud</b>
-      - <b>Google Analytics</b>
+      - jQuery
+      - DemandwareScript
+      - Jira
+      - Confluence
+      - Basecamp
+      - Marketing Cloud
+      - Google Analytics
     cert:
       cta: View Testimonial
       link: /assets/pdf/Butlers-Abschlusszeugnis.pdf
-
-  - role: Assistant Chef
-    time: June 2011 - October 2012
-    company: Café Krümel
-
-  - role: Back Office (Working Student)
-    time: October 2009 - November 2010
-    company: Check24
-    details: |
-      Entering insurance information in the backend system. Maintenance and cleanup of customer databases in Excel.
-    technologies_used:
-      - Excel
 
 education:
   - degree: Media Culture Science / Media Psychology, B.A.
     time: October 2010 - March 2019
     university: University of Cologne
-    details: Humanities studies with courses (in English & German) in philosophy, theatre studies, literary studies, media studies, media history, media theory and media analysis, accompanied by statistics, perceptual psychology, emotional psychology, media psychology, social and communication psychology. Media psychology practical course with paper <a href="https://www.academia.edu/42028974/The_significance_of_color_and_visual_style_of_a_call_to_action_button_on_the_conversion_rates_of_a_web_application" target="_blank">The significance of color and visual style of a call-to-action button on the conversion rates of a web application.</a> and Bachelor Thesis entitled <a href="https://www.academia.edu/42028973/The_button_as_a_user_interface_component_variables_of_its_display_and_their_effects_on_usability" target="_blank">The button as a user interface component - variables of its display and their effects on usability.</a>
+    details:
+      - Humanities studies with courses (in English & German) in philosophy, theatre studies, literary studies, media studies, media history, media theory and media analysis, accompanied by statistics, perceptual psychology, emotional psychology, media psychology, social and communication psychology.
+      - 'Media psychology practical course with paper: <a href="https://www.academia.edu/42028974/The_significance_of_color_and_visual_style_of_a_call_to_action_button_on_the_conversion_rates_of_a_web_application" target="_blank">The significance of color and visual style of a call-to-action button on the conversion rates of a web application.</a>'
+      - 'Bachelor Thesis: <a href="https://www.academia.edu/42028973/The_button_as_a_user_interface_component_variables_of_its_display_and_their_effects_on_usability" target="_blank">The button as a user interface component - variables of its display and their effects on usability.</a>'
     cta: View Certificate
     link: /assets/pdf/BA-Zeugnis.pdf
 
@@ -161,7 +174,7 @@ education:
     details: Over 1600 hours of German lessons, Over 400 hours of English. Maintenance of the website and forum of the high school.
 
 certifications:
-  - name: Introduction to Sustainable Finance	
+  - name: Introduction to Sustainable Finance
     time: May 2021
     organization: UN CC:e-Learn
     cta: View Certificate
@@ -178,10 +191,10 @@ certifications:
     organization: University of Pennsylvania, Unicef via Coursera
     cta: View Certificate
     link: https://coursera.org/verify/U6E3UFGS7W3K
-     
+
   - name: Typology
     time: May 2019
-    organization: Nexum, PE Support 
+    organization: Nexum, PE Support
     cta: View Certificate
     link: /assets/pdf/Typologie-Seminar.pdf
 
@@ -207,80 +220,31 @@ certifications:
 skills:
   - category: Skills and Tools
     skill:
-      - Javascript
-      - NodeJS
-      - ExpressJS
-      - JQuery
-      - React
+      - Javascript, NodeJS
+      - E-Commerce, Commerce Cloud
       - Vue
-      - Webpack/Grunt/Gulp
-      - Git
-      - Github
-      - Bitbucket
-      - Bamboo
+      - React
+      - Build & Deploy
       - Agile Development
       - SCRUM, Kanban
-      - Jira
-      - Confluence
-      - Basecamp
-      - Publitas
-      - GTM
-      - Bash
-      - Powershell
-      - Regex
-      - Python
-      - Ruby Gems
-      - Docker
-      - Ansible
-      - HTML5
-      - XML
-      - ISML
-      - PUG
-      - Jekyll
-      - Wordpress
-      - Drupal
-      - CSS/SCSS
-      - Prepros/Koala
-      - Bootstrap
-      - JSON
-      - Postman
-      - Rest
-      - Commerce Cloud
-      - Marketing Cloud
-      - AWS
-      - CodeceptJS
-  
+      - Jira, Confluence
+
   - category: Hobbies
     skill:
-      - Philosophy
-      - Gardening
+      - Chess
+      - Guitar
       - Development
       - Handcraft
-      - Raspberry Pi & Arduino
-      - Cooking
-      - Sustainability
-      - Chess
-      - IOT
-      - Media & Communication
-      - Guitar
-      - Blockchain
+      - Raspberry Pi, Arduino, IOT
+      - Gardening
       - 3D Printing
 
   - category: Personal Skills
     skill:
       - Structured
-      - Conscientious
       - Mindful
       - Precise
-      - Persevering
-      - Compassionate
-      - Perfectionist
-      - Disciplined
-      - Attentive
-      - Careful
-      - Controlled
       - Supportive
-      - Questioning
       - Reliable
       - Loyal
 

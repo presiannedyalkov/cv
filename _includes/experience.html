@@ -3,29 +3,43 @@
 <section class="experiance">
     <h2 class="title">{{data.global.experience}}</h2>
     {% for exp in experience %}
-        <div class="experience-item">
-            <div class="role">
-                {{exp.role}}
-            </div>
-            <div class="company">
-                <span class="name">{{exp.company}} {% if exp.link %} <span class="link">@ <a href="https://{{exp.link}}" target="_blank">{{exp.link}}</a></span>{% endif %}</span>
-                <span class="time">{{exp.time}}</span>
-            </div> 
-            <div class="details">
-                {{exp.details}}
-                {% if exp.technologies_used %}
-                    <p class="technologies">{{data.global.technologies}}: 
-                    {% for technology in exp.technologies_used %}
-                        {{technology}}{% unless forloop.last %}, {% endunless %}
-                    {% endfor %}
-                    </p>
-                {% endif %}
-                {% if exp.cert %}
-                    <p><a href="{{exp.cert.link | absolute_url}}" target="_blank">{{exp.cert.cta}}</a></p>
-                {% endif %}
-            </div>
+    <div class="experience-item">
+        <div class="role">
+            {{exp.role}}
         </div>
-       
+        <div class="company">
+            <span class="name">{{exp.company}} {% if exp.link %} <span class="link">@ <a href="https://{{exp.link}}"
+                        target="_blank">{{exp.link}}</a></span>{% endif %}</span>
+            <span class="time">{{exp.time}}</span>
+        </div>
+        <div class="details">
+            {% if exp.details %}
+            <ul>
+                {% for detail in exp.details %}
+                <li>{{detail}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if exp.details_second_level %}
+            <ol class="second_level">
+                {% for detail in exp.details_second_level %}
+                <li>{{detail}}</li>
+                {% endfor %}
+            </ol>
+            {% endif %}
+            {% if exp.technologies_used %}
+            <p class="technologies">{{data.global.technologies}}:
+                {% for technology in exp.technologies_used %}
+                {{technology}}{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+            </p>
+            {% endif %}
+            {% if exp.cert %}
+            <p><a href="{{exp.cert.link | absolute_url}}" target="_blank">{{exp.cert.cta}}</a></p>
+            {% endif %}
+        </div>
+    </div>
+
     {% endfor %}
 </section>
 {% endif %}

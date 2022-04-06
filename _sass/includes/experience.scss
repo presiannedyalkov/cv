@@ -15,7 +15,8 @@
             flex-direction: row;
             justify-content: space-between;
 
-            .time, .link {
+            .time,
+            .link {
                 color: var(--fg-color-title-sm);
                 font-weight: 100;
                 a {
@@ -27,6 +28,9 @@
             @include body-text;
             a {
                 font-weight: bold;
+            }
+            .second_level {
+                margin-left: 45px;
             }
         }
         .technologies {
